@@ -67,6 +67,31 @@ const CONFIG = {
             name: "王媛媛",
             college: "外语学院",
             intro: ""
+        },
+        {
+            name: "张越",
+            college: "社会与政治学院",
+            intro: ""
+        },
+        {
+            name: "陶思雨",
+            college: "管理学院",
+            intro: ""
+        },
+        {
+            name: "陈晨",
+            college: "外语学院",
+            intro: ""
+        },
+        {
+            name: "鲍可可",
+            college: "社会与政治学院",
+            intro: ""
+        },
+        {
+            name: "王嘉成",
+            college: "化学化工学院",
+            intro: ""
         }
     ],
 
