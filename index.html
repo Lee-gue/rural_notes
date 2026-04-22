@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=3.0, user-scalable=yes">
     <title>安大乡村教育笔记 | 守望乡野，共育希望</title>
     <meta name="description" content="守望乡野，共育希望。安徽大学乡村教育笔记项目，致力于为乡镇中学提供定制化教育资源支持。">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -13,6 +13,15 @@
         
         * {
             font-family: 'Noto Sans SC', sans-serif;
+        }
+        
+        html {
+            min-width: 100vw;
+        }
+        
+        body {
+            min-width: 100vw;
+            overflow-x: auto;
         }
         
         .gradient-bg {
@@ -232,7 +241,7 @@
 <body class="bg-gray-50 scroll-smooth">
     <!-- 导航栏 -->
     <nav class="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-md shadow-sm">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style="min-width: 1024px;">
             <div class="flex justify-between items-center h-16">
                 <!-- Logo -->
                 <div class="flex items-center space-x-3">
@@ -290,7 +299,7 @@
             </div>
             
             <!-- 核心数据卡片 -->
-            <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 sm:gap-4 max-w-5xl mx-auto px-4">
+            <div class="grid grid-cols-3 gap-4 max-w-5xl mx-auto px-4">
                 <a href="#team" class="stat-card rounded-xl sm:rounded-2xl p-4 sm:p-5 text-center card-hover cursor-pointer block">
                     <div id="data-members" class="text-2xl sm:text-3xl lg:text-4xl font-bold text-primary-600 mb-1">1000+</div>
                     <div class="text-xs sm:text-sm text-gray-600">参与人数</div>
@@ -385,7 +394,7 @@
 
     <!-- 项目进展 -->
     <section id="progress" class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style="min-width: 1024px;">
             <div class="text-center mb-12">
                 <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">项目进展</h2>
                 <p class="text-gray-600 max-w-2xl mx-auto">记录每一个成长的瞬间，见证乡村教育的改变</p>
@@ -393,7 +402,7 @@
             
             <!-- 数据看板 -->
             <div class="bg-gradient-to-r from-primary-600 to-primary-500 rounded-3xl p-8 mb-12 text-white">
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="grid grid-cols-3 gap-8">
                     <a href="#gantt" class="text-center block cursor-pointer hover:scale-105 transition-transform">
                         <div class="text-5xl font-bold mb-2">60%</div>
                         <div class="text-white/80">项目完成度</div>
@@ -416,7 +425,7 @@
             </div>
             
             <!-- 进展卡片 -->
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="grid grid-cols-3 gap-6">
                 <!-- 卡片1 -->
                 <div class="bg-white border border-gray-100 rounded-2xl overflow-hidden card-hover shadow-sm">
                     <div class="aspect-[3/1] bg-gradient-to-br from-primary-100 to-primary-50 flex items-center justify-center">
@@ -558,13 +567,13 @@
 
     <!-- 合作基地 -->
     <section id="partners" class="py-20 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style="min-width: 1024px;">
             <div class="text-center mb-12">
                 <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">合作基地</h2>
                 <p class="text-gray-600 max-w-2xl mx-auto">携手乡镇中学，共建教育实践平台</p>
             </div>
             
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="grid grid-cols-3 gap-6">
                 <!-- 霍邱县临水镇中心学校 -->
                 <a href="https://v.douyin.com/th4y2saAfJs/" target="_blank" class="bg-white rounded-2xl overflow-hidden card-hover shadow-sm block cursor-pointer">
                     <div class="aspect-[3/1] bg-gradient-to-br from-primary-100 to-primary-50 flex items-center justify-center">
@@ -633,13 +642,13 @@
 
     <!-- 活动纪实 -->
     <section id="activities" class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style="min-width: 1024px;">
             <div class="text-center mb-12">
                 <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">活动纪实</h2>
                 <p class="text-gray-600 max-w-2xl mx-auto">用镜头记录每一次相遇，用文字传递每一份温暖</p>
             </div>
             
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="grid grid-cols-3 gap-6">
                 <!-- 活动一 -->
                 <a href="https://www.douyin.com/user/MS4wLjABAAAAW7OQHKfGKdgdcPNMLEWX5XNPaw-KcYgcMlG8XSWpDzY9MPbiR44v78sva7mGFT7_?from_tab_name=main&modal_id=7627161050999622735" target="_blank" class="bg-white rounded-2xl overflow-hidden card-hover shadow-sm block">
                     <div class="aspect-[3/1] bg-gray-200 relative">
@@ -706,13 +715,13 @@
 
     <!-- 团队成员 -->
     <section id="team" class="py-20 bg-gray-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style="min-width: 1024px;">
             <div class="text-center mb-12">
                 <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">团队成员</h2>
                 <p class="text-gray-600 max-w-2xl mx-auto">不同专业、不同学院，有情怀，有担当。</p>
             </div>
             
-            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6">
+            <div class="grid grid-cols-5 gap-6">
                 <!-- 李涛 -->
                 <div onclick="showMember('litao')" class="bg-gray-50 rounded-2xl p-6 text-center card-hover cursor-pointer">
                     <div class="w-20 h-20 bg-gradient-to-br from-primary-400 to-primary-600 rounded-full mx-auto mb-4 flex items-center justify-center text-white text-2xl font-bold">
@@ -863,7 +872,7 @@
 
     <!-- 青春笔记 - 投稿分享 -->
     <section id="share" class="py-20 bg-gradient-to-br from-amber-50 to-orange-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style="min-width: 1024px;">
             <div class="text-center mb-12">
                 <h2 class="text-3xl sm:text-4xl font-bold text-gray-800 mb-4">青春笔记</h2>
                 <p class="text-gray-600 max-w-2xl mx-auto">分享你的大学生活、专业学习、日常感悟、旅游经历...记录青春的每一刻</p>
@@ -900,7 +909,7 @@
             </div>
             
             <!-- 投稿展示区 -->
-            <div id="shareList" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div id="shareList" class="grid grid-cols-3 gap-6">
                 <!-- 示例投稿卡片 -->
                 <div class="bg-white rounded-2xl shadow-md overflow-hidden card-hover">
                     <div class="h-40 bg-gray-200 relative">
@@ -1086,13 +1095,13 @@
 
     <!-- 联系我们 -->
     <section id="contact" class="py-20 bg-gradient-to-br from-primary-600 to-primary-700 text-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style="min-width: 1024px;">
             <div class="text-center mb-12">
                 <h2 class="text-3xl sm:text-4xl font-bold mb-4">联系我们</h2>
                 <p class="text-white/80">守望乡野，共育希望</p>
             </div>
             
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 max-w-5xl mx-auto">
+            <div class="grid grid-cols-3 gap-8 max-w-5xl mx-auto">
                 <!-- 联系方式 -->
                 <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-6 sm:p-8">
                     <h3 class="text-lg sm:text-xl font-bold mb-4 sm:mb-6 text-center">联系方式</h3>
@@ -1320,8 +1329,8 @@
 
     <!-- Footer -->
     <footer class="bg-gray-900 text-white py-12">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" style="min-width: 1024px;">
+            <div class="grid grid-cols-4 gap-8 mb-8">
                 <div>
                     <div class="flex items-center space-x-3 mb-4">
                         <div class="w-10 h-10 bg-primary-500 rounded-xl flex items-center justify-center">
